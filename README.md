@@ -55,6 +55,7 @@ docker-compose up --build
 make api        # FastAPI (port 8000)
 make worker     # Celery
 make gradio     # Gradio UI (port 7860)
+make menu       # To run .start.sh from here
 ```
 
 ### 4. Or Start Locally using Poetry
