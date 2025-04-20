@@ -10,9 +10,8 @@ An intelligent, asynchronous question-answering system powered by **FastAPI**, *
 ai-backend/
 ├── services/           # FastAPI backend + Celery task logic
 ├── demo/               # Gradio interface
-├── files/              # Default context files (txt/pdf)
-├── cache/              # Diskcache storage
-├── .env                # Runtime secrets (ignored)
+├── files/              # Default context files (txt)
+├── .env.template       # Runtime secrets (to be copied as `.env`)
 ├── docker-compose.yml  # Multi-service orchestration
 ├── Makefile            # Developer shortcuts
 └── start.sh            # Dev startup script
