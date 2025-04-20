@@ -57,6 +57,26 @@ make worker     # Celery
 make gradio     # Gradio UI (port 7860)
 ```
 
+### 4. Or Start Locally using Poetry
+
+```bash
+# Install dependencies
+poetry install
+
+# Activate virtual environment
+poetry shell
+
+# In separate terminals:
+# Terminal 1 – Start FastAPI app
+uvicorn services.main:app --reload --host 0.0.0.0 --port 8000
+
+# Terminal 2 – Start Celery worker
+celery -A services.main.celery_app worker --loglevel=info
+
+# Terminal 3 – Launch Gradio UI
+python demo/demo.py
+```
+
 ---
 
 ## 📮 API Reference
