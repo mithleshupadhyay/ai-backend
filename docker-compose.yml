@@ -1,0 +1,62 @@
+version: '3.9'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: services/Dockerfile
+    container_name: fastapi_app
+    ports:
+      - "${APP_PORT:-8000}:8000"
+    volumes:
+      - ./services:/app/services
+      - ./files:/app/files
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - REDIS_BROKER_URL=redis://redis:6379/0
+      - CELERY_RESULT_BACKEND=redis://redis:6379/0
+      - CACHE_DIR=./cache
+      - DEFAULT_CONTEXT_DIR=./files
+      - APP_PORT=${APP_PORT:-8000}
+    depends_on:
+      - redis
+
+  worker:
+    build:
+      context: .
+      dockerfile: services/Dockerfile.worker
+    container_name: celery_worker
+    volumes:
+      - ./services:/app/services
+      - ./files:/app/files
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - REDIS_BROKER_URL=redis://redis:6379/0
+      - CELERY_RESULT_BACKEND=redis://redis:6379/0
+      - CACHE_DIR=./cache
+      - DEFAULT_CONTEXT_DIR=./files
+    depends_on:
+      - redis
+
+  demo:
+    build:
+      context: .
+      dockerfile: demo/Dockerfile
+    container_name: gradio_ui
+    ports:
+      - "${GRADIO_PORT:-7860}:7860"
+    volumes:
+      - ./demo:/app/demo
+    environment:
+      - API_ASK_URL=http://api:${APP_PORT:-8000}/ask
+      - API_RESULT_URL=http://api:${APP_PORT:-8000}/result
+      - GRADIO_PORT=${GRADIO_PORT:-7860}
+      - GRADIO_SHARE=false
+    depends_on:
+      - api
+
+  redis:
+    image: redis:7
+    container_name: redis
+    ports:
+      - "6379:6379"

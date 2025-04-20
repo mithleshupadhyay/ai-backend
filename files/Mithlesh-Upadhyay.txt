@@ -1,0 +1,184 @@
+Mithlesh Upadhyay
+Data Scientist | Gen AI/ML Engineer
+mithleshupadhyay515@gmail.com
+/in/mithlesh-upadhyay/
++91-9311-3040-75
+Chitrakoot, MP
+/mithleshupadhyay
+Profile
+Data Scientist with 3 years of experience in AI and machine learning.
+Hold M.Tech in Artificial Intelligence from Delhi Govt Engineering College.
+Specialized in developing and fine-tuning LLMs, RAG, embeddings, NLP, and AI-based automation.
+Successfully fine-tuned open source models like LlaMA 2 and PoC for RAG for AI chatbot building.
+Implemented robust AI security measures—including prompt injection and jailbreak detection protocols—
+at Detoxio AI to ensure safe and secure AI interactions.
+Managed teams for data science and AI content and course preparation.
+Currently looking out for Data Scientist | Generative AI/ML Engineer roles.
+•
+•
+•
+•
+•
+•
+•
+Skills
+LLMs & AI
+GPT-4, QLoRA, RLHF, Claude, LLaMA, Falcon, Mixtral,
+QwenModel Deployment
+AWS SageMaker, Docker, Kubernetes, FastAPI, Triton
+Inference Server, ONNX Runtime, MLflow, BentoML
+AI Agents & Automation
+CrewAI, AutoGen, Amazon Polly, Deepgram, Zapier,
+Make.comData Engineering & Pipelines
+Python, Pandas, ETL, Data Cleaning, ChromaDB,
+FAISS, Pinecone, Qdrant
+Cloud & Databases
+AWS (SageMaker, EC2, S3), Google Cloud, Azure, SQL,
+MySQL, PostgreSQL, MongoDB, Firebase, RedisNLP & Libraries
+Tokenization, NER, Sentiment Analysis, Text
+Summarization, NLTK, Spacy, Hugging Face
+Transformers, BERT, BART
+Data Visualization & Frameworks
+Matplotlib, Seaborn, Plotly, LangChain, LlamaIndex,
+Streamlit
+Frontend Development
+ReactJS, Next.js, Vue.js, Tailwind CSS
+Professional Experience
+AI Engineer, Orbo AI
+Designed a Text Vulnerability Detection API to detect prompt injection and
+jailbreak risks in LLMs.
+Developed the dtx-prompt-guard-client package for AI security guardrails.
+Enabled optional prompt injection and default jailbreak detection checks.
+Integrated Data Loss Prevention (DLP) for masking sensitive data. Written hask
+and dehask classes accordingly
+Led red teaming demos (demo, demo_rag, demo_text2sql_toolkits,
+demo_tool_agents) for security testing.
+Contributed to the AI Agents Red Teaming Framework for risk analysis and
+scope generation.
+Wrote unit and integration tests to ensure system reliability.
+•
+•
+•
+•
+•
+•
+•
+01/2025 – present
+Remote, IndiaSDE-I (AI Engineer), Propellyr.com
+Fine-tuned open source models like LlaMA 2 using QLoRA on proprietary
+datasets and conducted inference.
+Implemented RAG for AI chatbot building and conducted proof of concept (POC)
+for various AI initiatives.
+Extracted data from the Propellyr website and applied embedding with Faiss DB
+to build an interactive chatbot.
+Prepared a dataset to fine-tune Llama 2 for a flight ticket booking chatbot.
+Developed scalable APIs.
+Huggingface profile - https://huggingface.co/mithlesh11/2023 – 08/2024
+Delhi, India
+Software Developer, ValueMatrix.ai
+Solved bugs and created new functionalities using JavaScript, Reactjs, MongoDB,
+HTML, and CSS.
+Participated in meetings and collaborated within teams.
+ValueMatrix is an AI-powered hiring platform where I resolved bugs using
+ReactJS.04/2023 – 09/2023
+Bengaluru, India
+Python Developer, FORESIET
+Developed functions for APK crawlers.
+Foresiet is a leading cybersecurity company where I worked as a Python
+developer.09/2022 – 12/2022
+Bengaluru, India
+Senior Technical Content Engineer, GeeksforGeeks
+Managed teams for data science and AI content and course preparation.
+Published articles, provided feedback, and managed content.
+Published more than 7000 articles, 3000 improvements, 9000 provided
+feedback.
+Managed team of 15+ members to deliver products before the deadlines.
+Mentored and guided new members.09/2017 – 12/2021
+Noida, India
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+Education
+M.Tech, Artificial Intelligence, Delhi Technological University (Formerly DCE)
+Artificial Intelligence, Machine Learning, NLP, Artificial Neural Network, Deep
+Learning, Computer Vision07/2021 – 06/2023
+Delhi, India
+Bachelor of Engineering (CSE), Vindhya Institute of Technology & Science
+Algorithms and Data Structure, DBMS, OS, CN09/2008 – 05/2012
+Satna, MP, India
+•
+•
+Projects
+Flight Agent Chatbot using RAG - LangChain
+Developed a chatbot for flight-related queries using the RAG (Retrieval-Augmented Generation) model.
+Used OpenAI Embeddings and Chroma as vectorstore, and gpt-3.5-turbo for chatbot.
+The chatbot, integrated with LangChain, provides users with real-time assistance and information
+regarding flights and related services.
+•
+•
+•
+Interactive Callbot
+AI-powered callbot integrated with Twilio for seamless voice interactions.
+Uses OpenAI's Realtime API to provide dynamic responses in real-time.
+Greets users and confirms call purposes effectively.
+Collects information related to home loans and properties.
+Stores transcriptions and call details for further processing.
+Features robust error handling and interactive conversation flows.
+•
+•
+•
+•
+•
+•mithlesh/LlaMA-2-ayurveda
+Uploaded to the Hugging Face Model Hub.
+This project involves an ayurveda-specific adaptation of the LlaMA 2 language model.
+Users can access and utilize the model for tasks related to ayurvedic text processing and generation.
+•
+•
+•
+Fine_Tune_LlaMA_2_using_QLoRA
+Fine-tuned the LlaMA 2 model on proprietary datasets.
+Conducted inference using the fine-tuned model.
+Fine-tuned Llama 2 using different datasets on Amazon SageMaker.
+Developed a dataset for flight ticket booking information in JSON format.
+•
+•
+•
+•
+Publications
+A Comprehensive Analysis of Sentiment Analysis: Approaches, Applications,
+and Classifier Comparisons, IEEE
+Reviewed popular methods for sentiment analysis and how they are used in
+different applications.
+Analyzed how text data from social media and messaging apps can provide
+valuable feedback.
+Created a guide for choosing the right sentiment analysis models based on
+specific needs.
+IEEE Xplore DOI: 10.1109/ICAC3N60023.2023.10541746
+16/12/2023
+•
+•
+•
+•
+Courses
+GATE CS Score Card, GATE Authority
+Qualified GATE CS with good AIR multiple times, (AIR - 2226 in year 2022 out of 1 lac aspirants)
+•
+Generative AI with Large Language Models, Coursera
+Foundational knowledge, practical skills, and a functional understanding of how generative AI works
+•
+Learn LangChain: Build #22 LLM Apps using OpenAI & Llama 2, Udemy
+Build Real World LLM powered applications with LangChain, OpenAI, Llama2, Hugging Face.

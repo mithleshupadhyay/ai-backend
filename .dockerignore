@@ -1,0 +1,51 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local environment files
+.env
+.venv/
+*.env
+*.venv
+
+# Docker-related
+Dockerfile
+Dockerfile.worker
+
+# Cache and DB files
+cache/
+*.db
+*.db-shm
+*.db-wal
+
+# Redis or Celery cache (if any)
+*.log
+*.pid
+
+# IDE/editor-specific
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Poetry lock file (not needed in Docker build if using requirements.txt)
+poetry.lock
+
+# Test-related
+pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Gradio auto certs
+.gradio/
+
+# Git
+.git/
+.gitignore
+
+# Misc
+*.bak
+*.tmp

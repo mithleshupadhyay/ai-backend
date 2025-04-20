@@ -1,0 +1,17 @@
+__pycache__/
+cache/
+.gradio/
+.env
+*.db
+*.db-shm
+*.db-wal
+*.pyc
+*.pyo
+*.log
+*.pem
+.poetry/
+.venv/
+.vscode/
+.idea/
+.pytest_cache/
+*.egg-info/
