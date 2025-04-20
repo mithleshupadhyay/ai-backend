@@ -38,7 +38,7 @@ ai-backend/
 ### 1. Clone + Set Environment
 
 ```bash
-git clone https://github.com/your-name/ai-backend.git
+git clone https://github.com/mithleshupadhyay/ai-backend.git
 cd ai-backend
 cp .env.template .env  # fill in your OpenAI key
 ```
